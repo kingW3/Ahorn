@@ -94,4 +94,4 @@ pqrstuvwxyz[\]^_
 PQRSTUVWXYZ{|}~ 
 """
 
-const pico8Font = nothing
+const pico8Font = missing
