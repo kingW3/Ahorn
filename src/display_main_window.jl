@@ -8,7 +8,7 @@ function displayMainWindow()
     end
 
     # Everything else should be ready, safe to make the window
-    global window = Window(windowTitle, 1280, 720, true, true, icon=windowIcon, gravity=GdkGravity.GDK_GRAVITY_CENTER)
+    global window = Window(windowTitle, 1280, 720, true, true, gravity=GdkGravity.GDK_GRAVITY_CENTER)
 
     disableLoadingScreen = get(debug.config, "DISABLE_LOADING_SCREEN", false)
     progressDialog = nothing
