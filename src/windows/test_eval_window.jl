@@ -40,7 +40,7 @@ function showEvalWindow(widget=nothing, event=nothing)
 end
 
 function createWindow()
-    evalWindow = Window("$(Ahorn.baseTitle) - Test Console", 720, 480, true, icon = Ahorn.windowIcon, gravity = GdkGravity.GDK_GRAVITY_CENTER
+    evalWindow = Window("$(Ahorn.baseTitle) - Test Console", 720, 480, true, gravity = GdkGravity.GDK_GRAVITY_CENTER
     ) |> (Frame() |> (evalBox = Box(:v)))
 
     # Hide window instead of destroying it
