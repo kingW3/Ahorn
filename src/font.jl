@@ -94,4 +94,4 @@ pqrstuvwxyz[\]^_
 PQRSTUVWXYZ{|}~ 
 """
 
-const pico8Font = Font(abs"../assets/pico8_font.png", pico8FontString)
+const pico8Font = nothing
