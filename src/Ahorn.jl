@@ -30,7 +30,7 @@ const baseTitle = "Ahorn"
 const iconFile = abs"../docs/logo-256.png"
 const logoFile = abs"../docs/logo-1024.png"
 
-const windowIcon = Pixbuf(filename=iconFile, width=-1, height=-1, preserve_aspect_ratio=true)
+const windowIcon = nothing
 
 const canvas = Canvas(0, 0)
 
