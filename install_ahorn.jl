@@ -54,7 +54,7 @@ println("Environment path: " * installpath)
 Pkg.activate(installpath)
 
 install_or_update("https://github.com/CelestialCartographers/Maple.git", "Maple")
-install_or_update("https://github.com/CelestialCartographers/Ahorn.git", "Ahorn")
+install_or_update("https://github.com/kingW3/Ahorn.git", "Ahorn")
 
 println("""
 
